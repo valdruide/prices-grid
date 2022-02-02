@@ -1,0 +1,21 @@
+
+
+.titleHeader{
+    font-size: 7vmax;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+.imghead{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.aboutHeaderImg{
+    background-image: url('../image/about-title-area.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+

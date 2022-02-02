@@ -1,0 +1,118 @@
+
+
+
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 16em;
+    height: 16em;
+    background: #fff;
+    margin: 0.7em;
+    overflow: hidden;
+  }
+
+.card img {
+    display: block;
+    width: 16em;
+    height: 16em;
+}
+
+.portfolioHead{
+  text-align: left;
+}
+
+
+
+.gal {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}	
+
+.gal img{ 
+  width: 100%;
+  padding: 7px 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+		
+		.gal {
+	
+	  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	  }
+		
+}
+
+.filters li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.5em;
+  color: #4A244D;
+}
+
+.filters ul{
+  padding-left: 0;
+}
+
+.IsActive{
+  color: #FF0049!important;
+}
+
+.filters li:hover{
+  transition: .2s;
+  color: #FF0049;
+}
+
+.filters li:not(:hover){
+  transition: .2s;
+}
+
+.column {
+  display: none; /* Hide columns by default */
+  
+}
+
+
+.show {
+  display: flex;
+}
+
+.content{
+  text-align: center;
+  position: relative;
+}
+
+
+.middle {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.content:hover .middle {
+  opacity: 1;
+}
+
+.content:hover .imgZoom {
+  opacity: 0.3;
+}
+
+.textOverlay {
+  background-color: #FF0049;
+  color: white;
+  font-size: 1.5em;
+  padding: 25px 40px;
+}

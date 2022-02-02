@@ -1,0 +1,76 @@
+
+
+
+
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font-size: 1.5em;
+    padding: 5px 15px;
+    color: #4A244D;
+    
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border-bottom: 1px solid #FF0049;
+    margin-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+    resize: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .buttonContact {
+    /* Pour placer le bouton à la même position que les champs texte */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+
+  .bouton{
+    color: white;
+    background-color: #FF0049;
+    border: none;
+    width: 180px;
+    padding: 5px;
+  }
+
+
+
+.form-Contact #prestation{
+  font-size: 1.4em;
+  padding: 5px 15px;
+  color: #4A244D;
+  border-bottom: 1px solid #FF0049;
+  margin-bottom: 15px;
+  width: 800px;
+  box-sizing: border-box;
+
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  cursor: pointer;
+
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='30' viewBox='0 0 24 24' width='30' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+}

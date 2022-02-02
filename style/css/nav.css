@@ -1,0 +1,158 @@
+
+
+.bg-nav{
+    background-color: transparent;
+    position: fixed;
+    z-index: 999;
+}
+
+.selectorNav{
+    position: absolute;
+    background-color: #FF0049;
+    width: 67px;
+    height: 10px;
+    z-index: -1;
+
+    left: 9px;
+    right: 0;
+    top: 21px;
+}
+
+.selectorNav2{
+    position: absolute;
+    background-color: #FF0049;
+    width: 43px;
+    height: 10px;
+    z-index: -1;
+
+    left: 9px;
+    right: 0;
+    top: 21px;
+}
+
+.selectorNav3{
+    position: absolute;
+    background-color: #FF0049;
+    width: 65px;
+    height: 10px;
+    z-index: -1;
+
+    left: 9px;
+    right: 0;
+    top: 21px;
+}
+
+.selectorNav4{
+    position: absolute;
+    background-color: #00F6E5;
+    width: 60px;
+    height: 10px;
+    z-index: -1;
+
+    left: 9px;
+    right: 0;
+    top: 21px;
+}
+
+.selectorNav5{
+    position: absolute;
+    background-color: #FF0049;
+    width: 58px;
+    height: 10px;
+    z-index: -1;
+
+    left: 9px;
+    right: 0;
+    top: 21px;
+}
+
+.navbar{
+    font-size: 1em;
+    font-weight: 700;
+    z-index: 999999;
+}
+
+.dropdown-menu{
+    background-color: #4A244D;
+    border-radius: 0;
+}
+
+.dropdown-item{
+    color: #FF0049;
+}
+
+.dropdown-item:hover{
+    color: #00F6E5;
+    background-color: transparent;
+    transition: .2s;
+}
+
+.dropdown-item:not(:hover){
+    transition: .2s;
+}
+
+.nav-link{
+    color: #4A244D!important;
+}
+
+.active:hover .nav-link{
+    color: #4A244D!important;
+}
+
+.active:hover .nav-link2{
+    color: #4A244D!important;
+}
+
+.active2:hover .nav-link2{
+    color: #4A244D!important;
+}
+
+.nav-link:hover{
+    transition: .3s;
+    color: #FF0049!important;
+}
+
+
+.nav-link:not(:hover){
+    transition: .3s;
+}
+
+.nav-link2{
+    color: #4A244D!important;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.nav-link2 a{
+    text-decoration: none;
+}
+
+.nav-link2:hover{
+    transition: .3s;
+    color: #00F6E5!important;
+    text-decoration: none;
+}
+
+.nav-link2:not(:hover){
+    transition: .3s;
+}
+
+.nav-link3{
+    color: #FF0049!important;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.nav-link3 a{
+    text-decoration: none;
+}
+
+.nav-link3:hover{
+    transition: .3s;
+    color: #00F6E5!important;
+    text-decoration: none;
+}
+
+.nav-link3:not(:hover){
+    transition: .3s;
+}

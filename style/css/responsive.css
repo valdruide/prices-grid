@@ -1,0 +1,208 @@
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .presentation p{ 
+        color: #4A244D;
+    }
+
+    .presentation2 h1{ 
+        text-align: center;
+        color: #FF0049;
+    }
+
+    .presentation2 p{ 
+        text-align: justify;
+        padding: 2px 30px;
+    }
+
+    .presentation3 p{
+        text-align: justify;
+    }
+
+    .listHomeService{
+        margin-top: 200px!important;
+        padding: 2px 30px;
+    }
+
+    .line-horizontal {
+        left: 0%;
+        height: 50px;
+    }
+
+    .bttnEffect{
+        text-align: center;
+    }
+
+    .glitchBttn{
+        margin-left: auto; 
+        margin-right: auto; 
+        left: 0; 
+        right: 0;
+    }
+
+    .bttn-blue{
+        margin-left: auto; 
+        margin-right: auto; 
+        left: 0; 
+        right: 5px;
+    }
+
+    .bttn-red{
+        margin-left: auto; 
+        margin-right: auto; 
+        left: 5px; 
+        right: 0;
+    }
+
+    .imgHeader{
+        width: 90vw;
+    }
+
+    .imgHeaderComet{
+        width: 50vw;
+        top: 15%;
+        left: 15%;
+    }
+
+    .portfolioHead h1{
+        text-align: center!important;
+        padding-left: 0!important;
+    }
+
+    .imgHome{
+        text-align: center!important;
+        width: 400px!important;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-Contact{
+        margin-top: 50px;
+    }
+
+
+
+    .imgGlace{
+        text-align: center!important;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+        width: 200px!important;
+    }
+
+
+    .blueCrossImg{
+        display: none;
+    }
+
+    .presentationTXT h1{
+        margin-top: 0px!important;
+    }
+
+    .navbar-light .navbar-nav{
+        background-color: #FF0049;
+        width: 100vw;
+        height: 120vh;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white!important;
+        font-size: 2em;
+    }
+
+    .navbar-light .navbar-nav .nav-link3 {
+        color: white!important;
+        font-size: 2em;
+    }
+
+    .navbar-collapse ul{
+        padding-top: 30vh;
+    }
+
+    .navbar-collapse{
+        margin-left: -10%!important;
+        margin-top: -20%!important;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #4A244D!important;
+    }
+
+    .navbar-light .navbar-nav .nav-link3:hover {
+        color: #4A244D!important;
+    }
+
+    .navbar-light .navbar-toggler{
+        border-color: transparent;
+        outline: none;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+        position: absolute;
+        right: 5%;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .portfolioTitle{
+        margin-left: 0px!important;
+        text-align: center!important;
+    }
+
+    .serviceWebTtitle{
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .serviceidentiteTtitle{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .serviceStream{
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .serviceApp{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .serviceTxt{
+        text-align: justify;
+        padding: 2px 20px;
+    }
+
+    .serviceListEtape{
+        padding: 2px 20px;
+    }
+
+    .serviceBaniereRed{
+        padding: 20px!important;
+        margin-top: 80px!important;
+    }
+
+    .serviceBaniereRed h1{
+        margin-bottom: 30px;
+    }
+
+    .serviceBaniereRed h2{
+        font-size: 1.5em;
+    }
+
+    .aboutBaniereRed{
+        padding: 55px!important;
+    }
+
+  }
+
+  
+
+
+  

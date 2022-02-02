@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+  .line-red{
+    border-left: 4px solid #FF0049;
+    height: 3px;
+    width: 90vw;
+    background-color: #FF0049;
+  }
+
+
+  .logoIcon::before{
+    font-family: "icofont";
+    content: "\ef01";
+    color: #FF0049;
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+
+  .designIcon::before{
+    font-family: "icofont";
+    content: "\ebf0";
+    color: #FF0049;
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+
+  .serviceTxt{
+    font-size: 1.1em!important;
+    color: #4A244D;
+  }
+
+  .aboutServiceImg{
+    background-image: url("../image/service-title-area.png");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+}

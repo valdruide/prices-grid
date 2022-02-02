@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #4A244D;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #FF0049;
+}
+
+::selection {
+    background: #FF0049;
+    color: white;
+  }
+
+html{
+    overflow-x: hidden!important;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+.yellow{
+    color: #FEF900;
+}
+
+.red{
+    color: #FF0049;
+}
+
+.blue {
+    color: #00F6E5;
+}
+
+.violet{
+    color: #4A244D;
+}
+
+.white{
+    color: white;
+}
+
+.gray{
+    color: rgb(165, 165, 165);
+}
+
+.bg-blue{
+    background-color: #00F6E5;
+}
+
+.bg-gray{
+    background-color: #353535;
+}
+
+.bg-red{
+    background-color: #FF0049;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+p{
+    font-size: 24px;
+}
+
+a:hover{
+    text-decoration: none!important;
+}
+
+
+
+header{
+    text-align: center;
+}
+
+.headerHome{
+    width: 100vw!important;
+    height: 100vh!important;
+}
+
+
+.icoHead{
+    position: absolute;
+}
+
+.ico6{
+    animation: ico6 7s infinite linear;
+}
+
+@keyframes ico6 {
+    from{
+        left: 83%;
+        top: 25%;
+    }
+    25%{
+        left: 82%;
+    }
+    50%{
+        top: 23%;
+    }
+    75%{
+        left: 82%;
+    }
+    to{
+        left: 83%;
+        top: 25%;
+    }
+}
+
+.ico5{
+    left: 75%;
+    top: 60%;
+    animation: ico5 1s 0ms linear, ico5Bis 3s 200ms infinite linear;
+}
+
+@keyframes ico5{
+    from{
+        left: 90%;
+        opacity: 0;
+    }
+    90%{
+        left: 76%;
+    }
+    to {
+        left: 75%;
+        opacity: 1;
+    }
+}
+
+@keyframes ico5Bis {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.ico4{
+    top: 75%!important;
+    left: 20%!important;
+
+    animation: ico4 1s;
+}
+
+@keyframes ico4{
+    from{
+        height: 0%;
+        width: 0%;
+        left: 0%;
+    }
+    to{
+        left: 20%;
+        height: 71.44px;
+        width: 74.55px;
+    }
+}
+
+.ico2{
+    left: 10%;
+    top: 10%;
+    animation: ico2 1s 0ms ,ico2Bis 5s 100ms infinite linear;
+}
+
+@keyframes ico2{
+    from{
+        top: -80%;
+    }
+    to {
+        top: 10%;
+    }
+}
+
+@keyframes ico2Bis{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.ico1{
+    top: 15%!important;
+    left: 45%;
+    animation: ico1 1s 0ms, ico1Bis 4s 100ms infinite linear;
+}
+
+@keyframes ico1{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes ico1Bis{
+    from{
+        left: 45%;
+    }
+    50%{
+        left: 46%;
+    }
+    to {
+        left: 45%;
+    }
+}
+
+.imgHeaderComet{
+    position: absolute;
+    animation: asterodid .8s ease-in-out;
+    top: 0%;
+    left: 14%!important;
+}
+
+@keyframes asterodid {
+    from {
+        top: -90%;
+        opacity: 0;
+    }
+    to {
+        top: 0%;
+        opacity: 1;
+    }
+}
+
+.texte_header{
+    position: absolute;
+    top: 50%!important;
+    left: 25%!important;
+    font-weight: 700;
+    font-size: 9vmax;
+
+    animation: textHead 1s;
+}
+
+.backgroundHome{
+    background-image: url('../image/bgHead2.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.line-horizontal{
+    border-left: 4px solid #CDCDCD;
+    height: 120px;
+    position: relative;
+    left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: lawngreen;
+    width: 0;
+}
+
+.glitchBttn{
+    background-color: #4A244D;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    z-index: 2;
+}
+
+.glitchBttn:hover, .glitchBttn:focus {
+    outline: none;
+}
+
+.bttnEffect{
+    position: relative!important;
+}
+
+.bttnEffect:hover .bttn-red{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.bttnEffect:hover .bttn-blue{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.bttn-red, .bttn-blue{
+    transition: all .2s;
+}
+
+.bttn-red{
+    margin-top: 25px;
+    margin-left: 15px;
+    position: absolute;
+    width: 205px;
+    height: 65px;
+    background-color: #ff2c54;
+}
+
+.bttn-blue{
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    width: 205px;
+    height: 65px;
+    background-color: #00F6E5;
+}
+
+.foot{
+    background-color: #4A244D;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 10vh;
+}
+
+
+.social{
+    font-size: 35px;
+    color: #00F6E5;
+    letter-spacing: 10px;
+}
+
+.social a{
+    color: #00F6E5;
+    text-decoration: none;
+}
+
+.social i:hover{
+    transition: color .3s;
+    color: #FF0049;
+    cursor: pointer;
+}
+
+.social i:not(:hover){
+    transition: color .3s;
+}
+
+.equipeImg{
+    text-decoration: none!important;
+}
+
+.equipeImg img{
+    width: 70%;
+}
+
+
+.tristanRed{
+    display: none;
+    opacity: 0;
+}
+
+
+.equipeImg:hover .tristanRed {
+    opacity: 1;
+    display: inline-block;
+}
+
+.equipeImg:hover .tristanViolet {
+    opacity: 0;
+    display: none;
+}
+
+.equipeImg .tristanRed:not(:hover){
+    transition: .5s;
+}
+
+.laureBlue{
+    display: none;
+    opacity: 0;
+}
+
+
+.equipeImg:hover .laureBlue {
+    transition: .5s;
+    opacity: 1;
+    display: inline-block;
+}
+
+.equipeImg:hover .laureViolet {
+    transition: .5s;
+    opacity: 0;
+    display: none;
+}
+
+.equipeImg .laureBlue:not(:hover){
+    transition: .5s;
+}
+
+.gueuleTXT{
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+
+.zoom{
+    transition: .2s;
+}
+
+.zoom:hover{
+    font-size: 1.2em;
+}
+
+@keyframes animArrowTop {
+    from {
+        top: 0%;
+    }
+    to {
+        top: 80%;
+    }
+}
+
+.animArrow{
+    animation: animArrowTop 1s 0ms forwards, slidearrow 2s 1s infinite;
+    top: 80%;
+    left: 0;
+    right: 0;
+}
+
+@keyframes slidearrow {
+    from {
+        top: 80%;
+    }
+
+    50% {
+        top: 78%;
+    }
+
+    to {
+        top: 80%;
+    }
+}
+
+
+
+
+.errorIcon{
+    width: 10vmax;
+    margin-bottom: 100px;
+}
+
+
+
+@keyframes textHead {
+    from {
+        font-size: 0em;
+    }
+
+    to {
+        font-size: 9vmax;
+    }
+}
+
+.icoHome{
+    font-size: 5em;
+}
+
+
+.icoPhone::before{
+    font-family: "icofont";
+    content: "\efbb";
+    color: #FF0049;
+    font-size: 1.5em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.icoMail::before{
+    font-family: "icofont";
+    content: "\ec56";
+    color: #FF0049;
+    font-size: 1.5em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.icoInsta::before{
+    font-family: "icofont";
+    content: "\ed46";
+    color: #FF0049;
+    font-size: 1.5em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.icoInsta:hover a{
+    color: #FF0049!important;
+}
+
+.icoService{
+    font-size: 5em;
+}
+
+.icoService p{
+    line-height: 1.2;
+    font-size: 25%;
+}
+
+.imgNousDeux{
+    width: 100%;
+}
+
+
+.imgProjet{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.tagsInfo p{
+    font-size: 1.2em;
+}
+
+.line-red2{
+    border-left: 4px solid rgb(165, 165, 165);
+    height: 3px;
+    width: 300px;
+    background-color: rgb(165, 165, 165);
+  }
+
+.carousel-indicators li{
+    background-color: #FF0049;
+}
+.carousel-control-next-icon {
+    background-image: url("../../style/image/caroussel-arrow.png");
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../../style/image/caroussel-prev-arrow.png");
+    width: 30px;
+    height: 30px;
+}
+
+.thxLink{
+    font-size: 1.6em;
+}
+
+.thxLink:hover{
+    transition: .2s;
+    color: #00F6E5;
+}
+
+.thxLink:not(:hover){
+    transition: .2s;
+}
+
+.msgSent{
+    width: 30%;
+    margin-bottom: 40px;
+}
